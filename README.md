@@ -84,11 +84,13 @@ Each row is a transaction, with the following columns:
 ## 4. Dashboard Construction
 
 - **Created unified dashboards** in Tableau with:
-  - **Trend charts** (time series line charts) for sales over time
-  - **Bar charts** for top-selling items and 
-  - **Column charts** for payment method splits
+  - **Trend charts** (time series line charts) for sales over time. Provides a clear view of seasonality and monthly performance consistency, included transaction counts, making it easy to spot trends or dips in sales.
+  - **Bar charts** for top-selling items and Coffee, Juice, and Cake have the highest quantities sold, reflecting their popularity.
+    This is useful for inventory and procurement planning.
+  - **Column charts** for Location wise splits. In-store and takeaway revenues are fairly balanced, allowing easy channel comparison.
+  - **Bar charts** for Revenue by item. Salad is the top revenue generator, followed by Sandwiches and Smoothies.
+    Items like Cookie and Tea contribute less to overall revenue.
     <img width="1892" height="993" alt="Screenshot 2025-07-23 021722" src="https://github.com/user-attachments/assets/2459b3b3-21a6-4686-83a6-71d55f61b35f" />
-
 
 
 **This README is the central reference for both the data’s structure, the cleaning workflow, and the analytical steps applied. It ensures reproducibility and transparency for all project stages.**
